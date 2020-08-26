@@ -20,8 +20,11 @@ Deleting views.
 Undo after adding views.
 
 :-Transforms
+
    Flip
+   
    Rotate
+   
    Resize
    
 :-Saving photo after editing.   
