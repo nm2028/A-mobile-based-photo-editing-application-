@@ -29,5 +29,7 @@ Undo after adding views.
 # Benefits
 
 :-Hassle free coding
+
 :-Increase efficiency
+
 :-Easy image editing
