@@ -1,7 +1,7 @@
 # A-mobile-based-photo-editing-application-
-# A Photo Editor library with simple, easy support for image editing using Paints, Text, Filters, Emoji and Sticker like stories.
+//A Photo Editor library with simple, easy support for image editing using Paints, Text, Filters, Emoji and Sticker like stories.
 
-Features
+# Features
 :-Adding Images.
 :-Adding Stickers.
 :-Adding Text with option to change its Color.
@@ -17,7 +17,7 @@ Features
    Resize
 :-Saving photo after editing.   
 
-Benefits
+# Benefits
 :-Hassle free coding
 :-Increase efficiency
 :-Easy image editing
