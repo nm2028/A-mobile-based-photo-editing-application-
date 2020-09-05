@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/welcomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:text="Welcome In Photo Editing Application"
+            android:textColor="#ff0006"
+            android:textSize="45dp"
+            android:layout_marginBottom="70dp"/>
+        <Button
+            android:id="@+id/SelectImageButton"
+            android:layout_marginBottom="40dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Select Image"/>
+        <Button
+            android:layout_marginBottom="40dp"
+            android:id="@+id/TakePhotoButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Take Photo"/>
+        <Button
+            android:id="@+id/GuidelinesAndExamplesButton"
+            android:layout_width="410dp"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:textColor="#0009ff"
+            android:textSize="35dp"
+            android:text="Guidelines and Examples"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
