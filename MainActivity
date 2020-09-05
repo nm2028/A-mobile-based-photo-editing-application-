@@ -1,0 +1,78 @@
+package com.example.photoeditorapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        if (!MainActivity.this.getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA)) {
+            findViewById(R.id.TakePhotoButton).setVisibility(View.GONE);
+        }
+
+
+        final Button SelectImageButton = findViewById(R.id.SelectImageButton);
+        SelectImageButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+            }
+        });
+        final Button TakePhotoButton = findViewById(R.id.TakePhotoButton);
+        TakePhotoButton.setOnClickListener(new View.OnClickListener() {
+
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        final Button GuidelinesAndExamplesButton = findViewById(R.id.GuidelinesAndExamplesButton);
+        GuidelinesAndExamplesButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+    private void init(){
+        final Button SelectImageButton = findViewById(R.id.SelectImageButton);
+        SelectImageButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+            }
+        });
+        final Button TakePhotoButton = findViewById(R.id.TakePhotoButton);
+        TakePhotoButton.setOnClickListener(new View.OnClickListener() {
+
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        final Button GuidelinesAndExamplesButton = findViewById(R.id.GuidelinesAndExamplesButton);
+        GuidelinesAndExamplesButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+    }
+
+}
