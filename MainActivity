@@ -19,6 +19,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class MainActivity<editMode> extends AppCompatActivity {
@@ -131,7 +132,7 @@ public class MainActivity<editMode> extends AppCompatActivity {
 
 
     private File createImageFile() {
-        final String timeStamp = new SimpleDataFormat("YYYYMMdd_HHmmss").format(new Date());
+        final String timeStamp = new SimpleDateFormat("YYYYMMdd_HHmmss").format(new Date());
         final String imageFileName = "/JPEG_" + timeStamp + ".jpg";
         final File StorageDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
         return new File(StorageDir + imageFileName);
